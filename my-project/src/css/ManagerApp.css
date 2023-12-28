@@ -1,0 +1,92 @@
+.manager-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .manager-input-container {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 1rem 0; /* Increase the vertical margin for spacing */
+  }
+  
+  .manager-input {
+    width: 100%;
+    padding: 1rem; /* Increase the padding for larger inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px; /* Increase the font size for readability */
+  }
+  
+  .manager-input:focus {
+    border-color: #007bff;
+  }
+  
+  .manager-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+  .manager-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for the "Delete" button within the ticket list */
+.ticket-list ul li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  font-size: 14px; /* Adjust the font size for the button */
+}
+
+.ticket-list ul li button:hover {
+  background-color: #bd2130;
+}
+
+/* Style for the ticket list */
+.ticket-list {
+  
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 2rem ; /* Increase the vertical margin for spacing */
+}
+
+.ticket-list h2 {
+  font-size: 24px; /* Increase the font size for the heading */
+  margin-bottom: 1rem; /* Add some spacing below the heading */
+}
+
+.ticket-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ticket-list ul li {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.ticket-list ul li:hover {
+  background-color: #e2e6ea;
+}

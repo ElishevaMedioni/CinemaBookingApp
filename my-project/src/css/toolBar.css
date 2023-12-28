@@ -1,0 +1,59 @@
+/* toolBar.css */
+.toolbar {
+  background-color: #f44336; /* Red color - adjust as needed */
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Add this line */
+  align-items: flex-start; /* Add this line */
+}
+
+.menuBar {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start; /* Change this line */
+  padding: 0;
+}
+
+
+.menuBar li {
+  margin-right: 10px;
+}
+
+.menuBar li a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.2s, border-radius 0.2s;
+}
+
+.menuBar li a:hover {
+  background-color: #d32f2f; /* Darker red on hover - adjust as needed */
+  border-radius: 4px;
+}
+
+.my-link {
+  background-color: #d32f2f; /* Darker red for active link - adjust as needed */
+  border-radius: 4px;
+}
+
+.toolbar-icon {
+  margin-right: 10px;
+  font-size: 18px; /* Adjust icon size as needed */
+}
+
+/* Add these new styles for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px; /* Increase text size */
+}
+
+/* Add a class for fun text in the footer */
+.fun-text {
+  font-family: 'Comic Sans MS', cursive; /* Change font to something fun */
+}

@@ -1,0 +1,28 @@
+.profile {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  margin: 30px;
+}
+
+.profile-picture {
+  margin-right: 20px;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column; /* Stack user info and ticket list vertically */
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+}
+
+.profile-tickets {
+  margin-top: 10px; /* Add some space between user info and ticket list */
+}

@@ -1,0 +1,24 @@
+.close_button {
+    display: block;
+    margin: 1rem 0 0.5rem 1rem;
+    width: 15%;
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #4e65f7;
+    color: white;
+    border: 2px solid transparent;
+    
+  }
+  
+  .close_button:hover {
+    border: 2px solid #4e65f7;
+    background-color: #000;
+  }
+
+  h2 {
+    padding: 10px;
+  }

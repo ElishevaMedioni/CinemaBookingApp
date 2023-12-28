@@ -1,0 +1,47 @@
+/* MovieSelection.css */
+.h2title{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.movie-selection-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    margin-bottom: 30px; /* Increase this value to create more space */
+  }
+  
+  .movie-card {
+    width: 200px; /* Set a fixed width for the movie cards */
+    height: 350px; /* Set a fixed height for the movie cards */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, border-color 0.2s;
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+  }
+  
+  .movie-poster {
+    max-width: 100%;
+    height: 75%; /* Control the height of the poster within the card */
+  object-fit: cover; /* Maintain aspect ratio and cover the available space */
+  }
+  
+  /* Add a class to adjust the text within the movie card */
+.movie-details {
+  padding: 10px;
+  text-align: center;
+   width: 100%; /* Make the label span the full width of the card */
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+  color: #fff; /* Set the text color */
+  padding: 8px 0; /* Add some padding to the label */
+  font-weight: bold;
+}
